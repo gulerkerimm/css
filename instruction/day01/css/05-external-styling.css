@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    text-align: justify;
+    background-color: steelblue;
+    color: white;
+}
+
+ol{
+    list-style-type: square;
+    color: rebeccapurple;
+    background-color: skyblue;
+}
+
+li{
+    color: greenyellow;
+    background-color: darkblue;
+}
