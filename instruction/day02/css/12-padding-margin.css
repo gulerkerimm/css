@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    background-color: beige;
+
+    padding: 10px;
+}
+
+h2.h2{
+    background-color: cadetblue;
+
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 50px; */
+
+    /*      üst  sağ  alt sol*/
+    margin: 10px 20px 5px 50px;
+}
+
+div.box-1{
+    background-color: lawngreen;
+
+
+    /* padding: 10px 20px 10px 20px; */
+    /* İlk değer dikeyde, ikinci değer yatayda padding veya margin verecektir. */
+    padding: 10px 20px;
+}
+
+p.para{
+    background-color: orange;
+    /* margin: 100px; */
+}
+
+span.span{
+    background-color: darkblue;
+    color: white;
+
+    /* inline margin'de dikey değer alır, yatay değer almaz. */
+    margin: 1000000000px 10px ;
+
+    /* inline padding'de yatay ve dikey değer alır ancak diğer elemanların görüntüsünü bozabilir. */
+    padding: 10px 20px;
+}
