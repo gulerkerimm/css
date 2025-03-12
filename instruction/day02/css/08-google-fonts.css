@@ -1,0 +1,23 @@
+h1.title{
+    text-align: center;
+    color: red;
+}
+
+a.link{
+    text-decoration: none;
+}
+
+p{
+    text-decoration: wavy underline red;
+}
+
+ul li a{
+    text-decoration: none;
+    /* font-style italic | normal değerlerini alabilir. */
+    font-style: italic;
+}
+
+ul li a.active{
+    /* font-weight 100 900 arasındaki her yüzlük sayıyı alabilir. 100 en ince, 900 ise en kalındır. Bold bolder ve lighter değerleri de alabilir. p taginin varsayılan değeri 400'dür. */
+    font-weight: 900;
+}
