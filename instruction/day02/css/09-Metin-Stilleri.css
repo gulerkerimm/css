@@ -8,7 +8,7 @@ a.link{
 }
 
 p{
-    text-decoration: wavy underline red;
+    text-decoration: wavy underline rgb(255, 0, 0);
 }
 
 ul.other li a{
@@ -24,7 +24,7 @@ ul li a.active{
 
 /* ziyaret edilmemiş linkelere uygualanacak stillendirme */
 ul.other2 li a:link{
-    color: red;
+    color: rgb(49, 25, 25);
 }
 
 /* ziyaret edilmiş linkelere uygualanacak stillendirme */
