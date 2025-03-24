@@ -30,7 +30,7 @@ form.btn-group input{
 }
 
 form.btn-group input::placeholder{
-    color: rgb(190, 190, 190);
+    color: rgb(60, 142, 66);
 }
 
 form.btn-group button{

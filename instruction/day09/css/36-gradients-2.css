@@ -29,7 +29,7 @@ div.bg-1 {
 div.bg-2 {
   background-image: radial-gradient(circle, gold, black);
 }
-
+;
 div.bg-2 {
   background-image: radial-gradient(circle, red 50%, white 50%);
 }
@@ -78,5 +78,6 @@ div.bg-3 {
           pink,
     white
   );
+  cursor: pointer ;
 
 }

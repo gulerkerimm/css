@@ -19,7 +19,7 @@ div.button-container{
 
     display: flex;
     padding: 10px 20px;
-    justify-content: space-around;
+    justify-content:space-around ;
     gap: 5px;
 }
 
@@ -27,7 +27,7 @@ div.button-container>button{
     flex: 1;
     color: var(--secondary-color);
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 800;
     background-color: transparent;
     border: 5px solid var(--secondary-color);
     border-radius: var(--radius-md);
