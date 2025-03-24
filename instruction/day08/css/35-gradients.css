@@ -27,7 +27,7 @@ div.bg-1{
 
 div.bg-2{
     /* to bottom (default), to left, to right, to top  */
-    background-image: linear-gradient( to top , teal , brown );
+    background-image: linear-gradient( to left , teal , brown, );
 }
 
 div.bg-3{
