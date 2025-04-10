@@ -1,0 +1,155 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #666572;
+    height: 100%;
+
+}
+
+header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+header span.logo{
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px ;
+    font-size: 15px;
+}
+header nav ul li a:hover{
+    background-color: #d50d0d;
+    border-radius: 10px;
+}
+
+nav.nav-middle{
+    background-color: #676161;
+    padding: 10px;
+}
+nav.nav-middle ul {
+    margin: 0;
+}
+nav.nav-middle ul li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+nav.nav-middle ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+
+}
+nav.nav-middle ul li a:hover{
+    color:red;
+}
+main{
+    text-align: center;
+}
+main section{
+    width: 60%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+main section h1{
+    font-size: 2rem;
+    color: #333;
+    text-transform: capitalize;
+    margin: 1rem;
+
+}
+main section .buttons button{
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+     cursor: pointer;
+}
+
+main section .buttons button:first-child{
+    background-color: #d50d0d;
+   
+}
+main section iframe{
+    width: 100%;
+    height: 50vh
+    border-radius:5px;
+    margin: 10px;
+}
+hr.line{
+    width: 95%;
+    height: 3px;
+    background-color: #deaeae;
+   border: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 10px 15px;
+    height: 2rem;
+    font-size: 15px;
+    color: violet;
+
+}
+footer ul, footer p{
+    margin: 0;
+  
+}
+footer div.left nav{
+    margin-left: -2rem;
+}
+
+footer div.left ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5  px;
+}
+footer div.left nav ul a {
+    text-decoration: none;
+    color: white;
+}
+footer div.left nav ul li:after{
+    content: "|";
+    color: white;
+    padding: 0 5px;
+
+}
+footer div.left nav ul li:last-child:after{
+    content: "";
+}
+
+footer div.right a{
+    font-size: 10px;
+    color: #deaeae;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
